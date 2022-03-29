@@ -1,0 +1,139 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+    --branco:#fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elemento base */
+body{
+    background:var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    color:var(--vermelho);
+    font-family: Arial black, Times;
+    font-size: 42px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color:#aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:var(--branco);
+
+}
+/*serie-principal*/
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('/img/darklong.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.serie-principal2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('/img/darklon2.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.serie-principal .descricaodark{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0,50%);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 30px;
+    font-size: 12px;
+    margin-top: 150px;
+    cursor: pointer;
+    transition: .3s ease all;
+    align-items: flex-start;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+}
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.serie-principal .container{
+    width: 85%;
+}
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+.carrosel-series{
+    margin-top: 10px;
+}
+
+a:link{
+    color:var(--branco);
+    text-decoration: none;
+    font-size: 12px;
+}
+a:visited{
+    color:var(--branco);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.info{
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
